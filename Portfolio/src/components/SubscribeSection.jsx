@@ -5,7 +5,7 @@ const SubscribeSection = () => {
   return (
     <div className="subscribe-section" id="Contact">
       <div className="subscribe-image">
-        <img src="/src/assets/d6b8fbeb-6d90-4bab-8584-97b5a52c4469.jpg" alt="Mailbox" />
+        <img src="/d6b8fbeb-6d90-4bab-8584-97b5a52c4469.jpg" alt="Mailbox" />
         <p className="photo-credit">Photo by Erik Mclean on Pexels</p>
       </div>
       <div className="subscribe-form">
