@@ -9,7 +9,7 @@ const ProductsCarousel = () => {
   const products = [
     { id: 1, image: '/chothing-ecommerce.png',link:"https://clothing-ecommerce-website-rbyl.vercel.app/", },
     { id: 2, image: '/marketpro.png',link:"https://react-1-blue.vercel.app/", },
-    { id: 3, image: '/cafu.png',link:"https://react-1-blue.vercel.app/", },
+    { id: 3, image: '/cafu.png',link:"https://cafue.vercel.app/", },
   ];
 
   return (
