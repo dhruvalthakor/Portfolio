@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+.app {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #111;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #111;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.scroll-down {
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.scroll-down span {
+  font-size: 1.5rem;
+}
+
+.about-me {
+  background-color: #111;
+  color: white;
+  padding: 5rem 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: white;
+}
+.products-section {
+  background-color: #111;
+  color: white;
+  padding: 5rem 10%;
+  text-align: center;
+}
+
+.products-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.products-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.product-card {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+.subscribe-section {
+  display: flex;
+  background-color: #111;
+  color: white;
+  padding: 50px 10%;
+  gap: 40px;
+}
+
+.subscribe-image {
+  flex: 1;
+  position: relative;
+}
+
+.subscribe-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.photo-credit {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+}
+
+.subscribe-form {
+  flex: 1;
+}
+
+.subscribe-form h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.subscribe-form p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.subscribe-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subscribe-form label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-form .disclaimer {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.subscribe-form a {
+  color: white;
+  text-decoration: underline;
+}
+
+.subscribe-form button {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.subscribe-form button:hover {
+  background-color: #ddd;
+}
+.footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Georgia', serif;
+}
+
+.footer-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.footer-note {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+
+.footer-note a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-body i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.services-section{
+  background-color: #111;
+  color: white;
+  padding: 5rem 10%;
+  text-align: center;
+}
+.service-card {
+  background-color: #111;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  background-color: #222;
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: white;
+}
+
+.service-card h5 {
+  color: white;
+}
+
+.service-card p {
+  color: #bbb;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+}
